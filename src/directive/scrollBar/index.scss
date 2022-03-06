@@ -1,0 +1,19 @@
+/**
+ * 重写部分样式用
+ */
+
+.ps {
+  z-index: 99;
+  .ps__rail-x,
+  .ps__rail-y {
+    z-index: 99;
+  }
+}
+
+body .ps__thumb-y {
+  right: 0;
+}
+body .ps__rail-y {
+  border-radius: 6px;
+  width: 12px;
+}

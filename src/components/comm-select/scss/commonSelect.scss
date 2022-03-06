@@ -1,0 +1,16 @@
+.cCommonSelect{
+  .dialog-title {
+    position: relative;
+    top: -1px;
+
+    .left {
+      font-size: 18px;
+    }
+
+    .right {
+      padding: 4px;
+      position: relative;
+      top: -2px;
+    }
+  }
+}

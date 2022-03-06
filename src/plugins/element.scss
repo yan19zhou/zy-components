@@ -1,0 +1,105 @@
+/* 改变主题色变量 */
+@import "../assets/style/common";
+
+$--color-primary: $theme-color;
+$--border-color-light: $border-color;
+
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-table__header {
+    border-top: 1px solid $--border-color-light;
+}
+
+.el-table thead th {
+    background-color: $bg-color;
+}
+
+.el-table tbody td {
+    padding: 2px 0;
+}
+
+.el-table th > .cell {
+    padding-left: 15px;
+}
+
+.el-input .el-input__inner {
+    border-radius: 0;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.el-menu {
+    border-right: none;
+}
+
+.el-pagination .el-select .el-input .el-input__inner {
+    border-radius: 0;
+}
+
+.router-tabs {
+    .el-tabs__header {
+        margin: 0;
+    }
+
+    .el-tabs__item {
+        height: 48px;
+        line-height: 48px;
+    }
+
+    .el-tabs__nav-wrap::after {
+        height: 1px;
+    }
+}
+
+.card-box {
+    .el-input__inner, .el-textarea__inner {
+        padding: 0;
+    }
+
+    .el-input__prefix {
+        left: -5px;
+    }
+
+    .el-input-group__append, .el-textarea__inner {
+        border-radius: 0;
+        background: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .el-date-editor {
+        .el-input__inner {
+            padding-left: 18px;
+        }
+    }
+
+    .el-select, .el-cascader, .el-date-editor, .el-radio-group {
+        width: 100%;
+    }
+}
+
+.upload-media {
+    .el-upload--picture-card, .el-upload-list__item {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+}
+
+.el-dialog__body {
+    padding: 16px 24px;
+    max-height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.right-search {
+    .el-input__inner {
+        padding: 0 30px;
+    }
+}

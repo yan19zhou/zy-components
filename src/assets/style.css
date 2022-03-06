@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body {
+    background: #0063d417;
+    font-family: microsoft yahei;
+  }

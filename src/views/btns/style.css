@@ -1,0 +1,69 @@
+	.redPacket{
+		width: 50px;
+		height: 80px;
+		background-color: red;
+		border-radius: 5px;
+	}
+	.blueBtn{
+		background-color: rgba(9, 1, 56, 0.9);
+		color: #ffc766;
+		padding: 30px;
+	}
+	.grayBtn{
+		background-color: rgba(56, 56, 56, 0.9);
+		color: #FFF;
+		padding: 30px;
+	}
+	.btn{	
+			min-width: 100px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 20px;
+			height: 40px;
+			border-radius: 40px;
+			color: white;
+			background-color: #f45e61;
+	}
+ 	.bubble{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #f45e61;
+		color: white;
+		text-align: center;
+		line-height: 60px;
+	}
+	.tips{
+		padding-bottom: 10px;
+	}
+	.className{
+		padding-top: 10px;
+	}
+	.chevronBox{
+		width: 80px;
+		height: 80px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.cardItem{
+		box-sizing: border-box;
+		border: 1px solid #f45e6133;
+		display: flex;
+		padding: 10px 0;
+		color: black;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.card{
+		width: 94%;
+		background-color: white;
+		position: relative;
+		display: grid;
+		grid-template-columns: repeat(5,1fr);
+		grid-gap: 30px;
+		margin: auto;
+		border-radius: 5px;
+	}
